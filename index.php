@@ -24,7 +24,7 @@ and open the template in the editor.
         <a href="PHP Uebungen 2/"> PHP Uebungen 2</a> <br/>
         <a href="PHP Uebungen 3/"> PHP Uebungen 3<a/> <br/>
         <a href="PHP Uebungen 4/"> PHP Uebungen 4<a/> <br/>
-             <a href="PHP Uebungen 4/"> This is a test<a/> <br/>
+       
             
         
             
