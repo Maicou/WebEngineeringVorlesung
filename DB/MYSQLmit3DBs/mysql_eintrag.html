@@ -1,0 +1,48 @@
+<html>
+<head>
+  <title> Formular Datenbankeintrag</title>
+  <link rel="stylesheet" type="text/css" href="format.css">
+</head>
+<body>
+  <h1> Bitte tragen Sie Ihre Adresse und Ihre gewünschte Korrespondezart ein </h1>
+  <font>
+  <form action="mysql_eintrag.php" method="post">
+  <table border="0">
+  <tr>
+     <TD>Name: </TD>
+     <td><input type="text" name="name" size="30" maxlength="40"></td>
+   </tr>
+   <tr>
+     <td>Vorname: </td>
+     <td><input type="text" name="vorname" size="30" maxlength="40"></td>
+   </tr>
+   <tr>
+     <td>Strasse: </td>
+     <td><input type="text" name="strasse" size="30" maxlength="40"></td>
+   </tr>
+   <tr>
+     <td>PLZ: </td>
+     <td><input type="text" name="plz" size="30" maxlength="40"></td>
+   </tr>
+   <tr>
+     <td>Wohnort: </td>
+     <td><input type="text" name="ort" size="30" maxlength="40"></td>
+   </tr>
+ </table>
+ <br/>
+ <input type="checkbox" name="e-mail" value="e-mail"/>
+ Per E-Mail<br/>
+ <input type="checkbox" name="newsletter" value="newsletter"/>
+ Per Newsletter<br/>
+ <input type="checkbox" name="fax" value="fax"/>
+ Per Fax<br/>
+ <input type="checkbox" name="brief" value="brief"/>
+ Per Brief<br/>
+ <br/> 
+ <input type="Submit" name="OK" VALUE="Senden"/>
+ <input type="reset" name="zur&uuml;cksetzen" VALUE="Zur&uuml;cksetzen"/>
+ </form>
+ </font>	
+</body>
+</html>
+
